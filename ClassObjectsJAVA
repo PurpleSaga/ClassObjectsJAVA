@@ -1,0 +1,22 @@
+class Student
+{
+ int roll;
+ String name;
+ public static void getdata(int x,String y)
+ {
+ roll=x;
+ name=;
+ }
+ public void showData()
+ {
+ System.out.print("roll number "+roll+"\nname: "+name);
+ }
+ public static void main(String args[])
+ {
+ student st=new Student();
+ int r=Integer.parseInt(args[0]);
+ String n=args[1];
+ st.getData(r,n);
+ st.showData();
+ }
+}
